@@ -1,7 +1,7 @@
 ## Redux tutorial
 This is a redux small tutorial. 
 
-[Live Demo](https://github.com/facebook/create-react-app).
+[Live Demo](https://tereshka.github.io/redux-tutorial/)
 
 Simple list - uses state of the component for saving fetched data
 Redux list - saves data in Redux state
