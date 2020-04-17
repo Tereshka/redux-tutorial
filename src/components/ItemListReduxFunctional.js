@@ -3,10 +3,10 @@ import { connect } from 'react-redux';
 import { itemsFetchData } from '../actions/itemsFunc';
 
 function ItemListReduxFunctional(props) {
-  const { hasErrored, isLoading, items } = props;
+  const { hasErrored, isLoading, items, fetchData } = props;
 
   useEffect(() => {
-    props.fetchData('https://5826ed963900d612000138bd.mockapi.io/items');
+    fetchData('https://5826ed963900d612000138bd.mockapi.io/items');
   }, []);
 
 
