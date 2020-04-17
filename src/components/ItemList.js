@@ -9,7 +9,7 @@ class ItemList extends Component {
   };
 
   componentDidMount() {
-    this.fetchData('http://5826ed963900d612000138bd.mockapi.io/items');
+    this.fetchData('https://5826ed963900d612000138bd.mockapi.io/items');
   }
 
   fetchData(url) {
